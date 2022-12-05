@@ -147,13 +147,13 @@ html {
 }
 
 h1 {
-  font-family: "Righteous", cursive;
+  font-family: 'Righteous', cursive;
   font-size: 14px;
   color: #414042;
 }
 
 .health-heading {
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 14px;
   margin-left: 8%;
   margin-top: -5px;
@@ -164,35 +164,35 @@ h1 {
   margin: 0;
   background-color: #37A749;
   background-size: 100% 632px;
-  background-image: url("site-images/stereo-verticle.jpg");
+  background-image: url("site-images/stereo-verticle.png");
 }
 
 .options-body {
   margin: 0;
   background-color: #37A749;
   background-size: 100% 632px;
-  background-image: url("site-images/lamp-verticle.jpg");
+  background-image: url("site-images/lamp-verticle.png");
 }
 
 .options2-body {
   margin: 0;
   background-color: #37A749;
   background-size: 100% 632px;
-  background-image: url("site-images/oven-verticle.jpg");
+  background-image: url("site-images/oven-verticle.png");
 }
 
 .options3-body {
   margin: 0;
   background-color: #37A749;
   background-size: 100% 632px;
-  background-image: url("site-images/mirror-verticle.jpg");
+  background-image: url("site-images/mirror-verticle.png");
 }
 
 .options4-body {
   margin: 0;
   background-color: #37A749;
   background-size: 100% 632px;
-  background-image: url("site-images/speaker-verticle.jpg");
+  background-image: url("site-images/speaker-verticle.png");
 }
 
 .header {
@@ -225,7 +225,8 @@ h1 {
   margin-left: 10%;
 }
 
-.spacer, .spacer3 {
+.spacer,
+.spacer3 {
   width: 0%;
   height: 0px;
 }
@@ -293,7 +294,8 @@ h1 {
   height: 260px;
 }
 
-.category-home3, .category-home3-2 {
+.category-home3,
+.category-home3-2 {
   width: 45%;
   height: 115px;
   background-color: #B0D684;
@@ -337,7 +339,8 @@ h1 {
   color: white;
 }
 
-.options-container, .add-container {
+.options-container,
+.add-container {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
@@ -382,7 +385,7 @@ h1 {
 }
 
 .option-title {
-  font-family: "Righteous", cursive;
+  font-family: 'Righteous', cursive;
   font-size: 20px;
   text-align: center;
   color: #414042;
@@ -390,7 +393,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Righteous", cursive;
+  font-family: 'Righteous', cursive;
   font-size: 18px;
   text-align: center;
   color: #414042;
@@ -406,7 +409,7 @@ h2 {
 }
 
 .on-off-text {
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 18px;
   margin-top: 10px;
 }
@@ -433,7 +436,8 @@ h2 {
   right: 0;
   bottom: 0;
   background-color: #808285;
-  transition: 0.4s;
+  -webkit-transition: .4s;
+  transition: .4s;
   border-radius: 50px;
 }
 
@@ -445,7 +449,7 @@ h2 {
   left: 3px;
   bottom: 4px;
   background-color: white;
-  transition: 0.4s;
+  transition: .4s;
   border-radius: 50px;
 }
 
@@ -497,7 +501,7 @@ input:checked + .slider:before {
 }
 
 .battery {
-  font-family: "Righteous", cursive;
+  font-family: 'Righteous', cursive;
   font-size: 58px;
   color: white;
   text-align: center;
@@ -542,18 +546,19 @@ input:checked + .slider:before {
   background-color: #414042;
   color: white;
   font-size: 18px;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   padding-left: 12px;
   border: none;
   border-radius: 50px;
 }
 
-.dropdown-rooms-button1, .dropdown-rooms-button2 {
+.dropdown-rooms-button1,
+.dropdown-rooms-button2 {
   width: 230px;
   height: 40px;
   margin-top: 30px;
   background-color: #414042;
-  font-family: "Righteous", cursive;
+  font-family: 'Righteous', cursive;
   text-align: left;
   padding-left: 16px;
   color: white;
@@ -562,12 +567,14 @@ input:checked + .slider:before {
   border-radius: 50px;
 }
 
-.dropdown1, .dropdown2 {
+.dropdown1,
+.dropdown2 {
   position: relative;
   display: inline-block;
 }
 
-.dropdown-content1, .dropdown-content2 {
+.dropdown-content1,
+.dropdown-content2 {
   display: none;
   position: absolute;
   background-color: #37A749;
@@ -576,15 +583,17 @@ input:checked + .slider:before {
   border-radius: 10px;
 }
 
-.dropdown-content1 a, .dropdown-content2 a {
+.dropdown-content1 a,
+.dropdown-content2 a {
   color: white;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   padding: 10px 16px;
   text-decoration: none;
   display: block;
 }
 
-.show, .show2 {
+.show,
+.show2 {
   display: block;
 }
 
@@ -597,7 +606,8 @@ input:checked + .slider:before {
   margin-top: 30px;
 }
 
-.bluetooth-text, .visit-text {
+.bluetooth-text,
+.visit-text {
   width: 63%;
   text-align: left;
   margin-right: 10%;
@@ -682,7 +692,8 @@ input:checked + .slider:before {
     margin-left: 15%;
     margin-top: 30px;
   }
-  .category-home3, .category-home3-2 {
+  .category-home3,
+  .category-home3-2 {
     width: 45%;
     height: 130px;
     background-color: #B0D684;
@@ -709,16 +720,20 @@ input:checked + .slider:before {
   .bi-plus-circle-fill {
     font-size: 55px;
   }
-  .dropdown-rooms-button1, .dropdown-rooms-button2 {
+  .dropdown-rooms-button1,
+  .dropdown-rooms-button2 {
     width: 300px;
   }
-  .dropdown-content1, .dropdown-content2 {
+  .dropdown-content1,
+  .dropdown-content2 {
     min-width: 300px;
   }
-  .bluetooth-text, .visit-text {
+  .bluetooth-text,
+  .visit-text {
     margin-right: 15%;
   }
 }
+
 @media only screen and (min-width: 768px) {
   .bedroom-icon, .lounge-icon, .kitchen-icon, .bathroom-icon, .outhouse-icon, .audio-icon, .down-icon, .lamp-icon, .heater-icon, .mirror-icon, .ueboom-icon, .surround-icon, .stereo-icon {
     width: 85px;
@@ -732,12 +747,12 @@ input:checked + .slider:before {
     background-size: 100% 1200px;
   }
   h1 {
-    font-family: "Righteous", cursive;
+    font-family: 'Righteous', cursive;
     font-size: 24px;
     color: #414042;
   }
   .health-heading {
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 24px;
     margin-left: 0px;
     margin-top: 35px;
@@ -904,7 +919,7 @@ input:checked + .slider:before {
     margin-top: 40px;
   }
   h2 {
-    font-family: "Righteous", cursive;
+    font-family: 'Righteous', cursive;
     font-size: 24px;
     text-align: center;
   }
@@ -943,7 +958,7 @@ input:checked + .slider:before {
     height: 50px;
   }
   .battery {
-    font-family: "Righteous", cursive;
+    font-family: 'Righteous', cursive;
     font-size: 100px;
     color: white;
     text-align: center;
@@ -1017,6 +1032,7 @@ input:checked + .slider:before {
     font-size: 80px;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   .bedroom-icon {
     background-size: contain;
@@ -1152,48 +1168,49 @@ input:checked + .slider:before {
     margin: 0;
     background-color: #37A749;
     background-size: 100% 1180px;
-    background-image: url("site-images/stereo-horizontal.jpg");
+    background-image: url("site-images/stereo-horizontal.png");
   }
   .options-body {
     margin: 0;
     background-color: #37A749;
     background-size: 100% 1180px;
-    background-image: url("site-images/lamp-horizontal.jpg");
+    background-image: url("site-images/lamp-horizontal.png");
   }
   .options2-body {
     margin: 0;
     background-color: #37A749;
     background-size: 100% 1180px;
-    background-image: url("site-images/oven-horizontal.jpg");
+    background-image: url("site-images/oven-horizontal.png");
   }
   .options3-body {
     margin: 0;
     background-color: #37A749;
     background-size: 100% 1180px;
-    background-image: url("site-images/mirror-horizontal.jpg");
+    background-image: url("site-images/mirror-horizontal.png");
   }
   .options4-body {
     margin: 0;
     background-color: #37A749;
     background-size: 100% 1180px;
-    background-image: url("site-images/speaker-horizontal.jpg");
+    background-image: url("site-images/speaker-horizontal.png");
   }
   h1 {
-    font-family: "Righteous", cursive;
+    font-family: 'Righteous', cursive;
     font-size: 24px;
     color: #414042;
   }
   .health-heading {
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 24px;
     margin-left: 40px;
     margin-top: 35px;
     margin-right: 40px;
     text-align: center;
   }
-  .home-body, .options-body {
+  .home-body,
+  .options-body {
     margin: 0;
-    background-image: url("site-images/stereo-horizontal.jpg");
+    background-image: url("site-images/stereo-horizontal.png");
     background-color: #37A749;
     background-size: 100% 900px;
   }
@@ -1223,7 +1240,9 @@ input:checked + .slider:before {
     margin-top: 80px;
     margin-left: 6%;
   }
-  .spacer, .spacer2, .spacer3 {
+  .spacer,
+  .spacer2,
+  .spacer3 {
     width: 100%;
     height: 110px;
     margin: 0 auto;
@@ -1368,7 +1387,7 @@ input:checked + .slider:before {
     margin-bottom: 0px;
   }
   h2 {
-    font-family: "Righteous", cursive;
+    font-family: 'Righteous', cursive;
     font-size: 32px;
     text-align: center;
   }
@@ -1381,7 +1400,7 @@ input:checked + .slider:before {
     margin-top: 115px;
   }
   .on-off-text {
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 32px;
     margin-top: 15px;
   }
@@ -1436,10 +1455,12 @@ input:checked + .slider:before {
     height: 250px;
     margin-top: 50px;
   }
-  .dropdown-rooms-button1, .dropdown-rooms-button2 {
+  .dropdown-rooms-button1,
+  .dropdown-rooms-button2 {
     width: 375px;
   }
-  .dropdown-content1 a, .dropdown-content2 a {
+  .dropdown-content1 a,
+  .dropdown-content2 a {
     font-size: 18px;
     padding: 8px 16px;
   }
@@ -1481,8 +1502,10 @@ input:checked + .slider:before {
     right: 180px;
   }
 }
+
 @media only screen and (min-width: 1440px) {
-  .categories-container, .categories-container2 {
+  .categories-container,
+  .categories-container2 {
     display: flex;
     flex-wrap: wrap;
     width: 70%;
@@ -1504,7 +1527,8 @@ input:checked + .slider:before {
     margin-top: 80px;
     margin-left: 10%;
   }
-  .dropdown-rooms-button1, .dropdown-rooms-button2 {
+  .dropdown-rooms-button1,
+  .dropdown-rooms-button2 {
     width: 470px;
   }
   #laptop-up-right-arrow {
@@ -1515,7 +1539,7 @@ input:checked + .slider:before {
     top: 66%;
   }
   .on-off-text {
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 32px;
     margin-top: 15px;
     margin: 0 auto;

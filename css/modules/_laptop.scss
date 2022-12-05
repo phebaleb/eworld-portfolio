@@ -1,4 +1,3 @@
-
 // THIS PAGE IS FOR REGULAR/SMALL AND LARGE LAPTOPS
 
 @media only screen and (min-width: 1024px) {
@@ -122,27 +121,27 @@
 
   .home-body {
     @include background-laptop;
-    background-image: url("site-images/stereo-horizontal.jpg");
+    background-image: url("site-images/stereo-horizontal.png");
   }
 
   .options-body {
     @include background-laptop;
-    background-image: url("site-images/lamp-horizontal.jpg");
+    background-image: url("site-images/lamp-horizontal.png");
   }
 
   .options2-body {
     @include background-laptop;
-    background-image: url("site-images/oven-horizontal.jpg");
+    background-image: url("site-images/oven-horizontal.png");
   }
 
   .options3-body {
     @include background-laptop;
-    background-image: url("site-images/mirror-horizontal.jpg");
+    background-image: url("site-images/mirror-horizontal.png");
   }
 
   .options4-body {
     @include background-laptop;
-    background-image: url("site-images/speaker-horizontal.jpg");
+    background-image: url("site-images/speaker-horizontal.png");
   }
 
   h1 {
@@ -160,9 +159,10 @@
     text-align: center;
   }
 
-  .home-body, .options-body {
+  .home-body,
+  .options-body {
     margin: 0;
-    background-image: url("site-images/stereo-horizontal.jpg");
+    background-image: url("site-images/stereo-horizontal.png");
     background-color: $green-colour;
     background-size: 100% 900px;
   }
@@ -193,7 +193,9 @@
     @include category-container;
   }
 
-  .spacer, .spacer2, .spacer3 {
+  .spacer,
+  .spacer2,
+  .spacer3 {
     width: 100%;
     height: 110px;
     margin: 0 auto;
@@ -401,11 +403,13 @@
   }
 
   // Below is for the FIRST dropdown (room selector).
-  .dropdown-rooms-button1, .dropdown-rooms-button2 {
+  .dropdown-rooms-button1,
+  .dropdown-rooms-button2 {
     width: 375px;
   }
 
-  .dropdown-content1 a, .dropdown-content2 a {
+  .dropdown-content1 a,
+  .dropdown-content2 a {
     font-size: 18px;
     padding: 8px 16px;
   }
@@ -467,7 +471,8 @@
     margin-left: 15%;
   }
 
-  .categories-container, .categories-container2 {
+  .categories-container,
+  .categories-container2 {
     @include flex;
     @include category-container-L;
   }
@@ -488,7 +493,8 @@
     margin-left: 10%;
   }
 
-  .dropdown-rooms-button1, .dropdown-rooms-button2 {
+  .dropdown-rooms-button1,
+  .dropdown-rooms-button2 {
     width: 470px;
   }
 

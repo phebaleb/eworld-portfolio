@@ -1,4 +1,3 @@
-
 // THIS PAGE IS FOR SMALL AND LARGE PHONES
 
 html {
@@ -57,27 +56,27 @@ h1 {
 
 .home-body {
   @include background-phone;
-  background-image: url("site-images/stereo-verticle.jpg");
+  background-image: url("site-images/stereo-verticle.png");
 }
 
 .options-body {
   @include background-phone;
-  background-image: url("site-images/lamp-verticle.jpg");
+  background-image: url("site-images/lamp-verticle.png");
 }
 
 .options2-body {
   @include background-phone;
-  background-image: url("site-images/oven-verticle.jpg");
+  background-image: url("site-images/oven-verticle.png");
 }
 
 .options3-body {
   @include background-phone;
-  background-image: url("site-images/mirror-verticle.jpg");
+  background-image: url("site-images/mirror-verticle.png");
 }
 
 .options4-body {
   @include background-phone;
-  background-image: url("site-images/speaker-verticle.jpg");
+  background-image: url("site-images/speaker-verticle.png");
 }
 
 .header {
@@ -106,7 +105,8 @@ h1 {
   @include category-container;
 }
 
-.spacer, .spacer3 {
+.spacer,
+.spacer3 {
   width: 0%;
   height: 0px;
 }
@@ -161,7 +161,8 @@ h1 {
   height: 260px;
 }
 
-.category-home3, .category-home3-2 {
+.category-home3,
+.category-home3-2 {
   @include category-box;
 }
 
@@ -195,7 +196,8 @@ h1 {
 
 // This marks the start of the CSS for the categories pages.
 
-.options-container, .add-container {
+.options-container,
+.add-container {
   @include flex;
   width: 90%;
   height: 510px;
@@ -326,7 +328,8 @@ h2 {
 }
 
 // Below is for the FIRST dropdown (room selector).
-.dropdown-rooms-button1, .dropdown-rooms-button2 {
+.dropdown-rooms-button1,
+.dropdown-rooms-button2 {
   width: 230px;
   height: 40px;
   margin-top: 30px;
@@ -341,12 +344,14 @@ h2 {
 }
 
 // Positions the content that drops down.
-.dropdown1, .dropdown2 {
+.dropdown1,
+.dropdown2 {
   position: relative;
   display: inline-block;
 }
 
-.dropdown-content1, .dropdown-content2 {
+.dropdown-content1,
+.dropdown-content2 {
   display: none;
   position: absolute;
   background-color: $green-colour;
@@ -355,7 +360,8 @@ h2 {
   border-radius: 10px;
 }
 
-.dropdown-content1 a, .dropdown-content2 a {
+.dropdown-content1 a,
+.dropdown-content2 a {
   color: white;
   font-family: 'Quicksand', sans-serif;
   padding: 10px 16px;
@@ -364,7 +370,10 @@ h2 {
 }
 
 // My JS uses this to show the dropdown menu
-.show, .show2 {display:block;}
+.show,
+.show2 {
+  display: block;
+}
 
 .bluetooth-container {
   @include flex;
@@ -374,7 +383,8 @@ h2 {
   margin-top: 30px;
 }
 
-.bluetooth-text, .visit-text {
+.bluetooth-text,
+.visit-text {
   width: 63%;
   text-align: left;
   margin-right: 10%;
@@ -469,7 +479,8 @@ h2 {
     margin-top: 30px;
   }
 
-  .category-home3, .category-home3-2 {
+  .category-home3,
+  .category-home3-2 {
     @include category-box;
   }
 
@@ -491,15 +502,18 @@ h2 {
   // This marks the beginning of the Add New Electronic page CSS.
 
   // Below is for the FIRST dropdown (room selector).
-  .dropdown-rooms-button1, .dropdown-rooms-button2 {
+  .dropdown-rooms-button1,
+  .dropdown-rooms-button2 {
     width: 300px;
   }
 
-  .dropdown-content1, .dropdown-content2 {
+  .dropdown-content1,
+  .dropdown-content2 {
     min-width: 300px;
   }
 
-  .bluetooth-text, .visit-text {
+  .bluetooth-text,
+  .visit-text {
     margin-right: 15%;
   }
 
