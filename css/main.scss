@@ -1,0 +1,510 @@
+
+// THIS PAGE IS FOR SMALL AND LARGE PHONES
+
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+$green-colour: #37A749;
+$pale-green-colour: #B0D684;
+$mid-grey-colour: #808285;
+$dark-grey-colour: #414042;
+
+@mixin flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@mixin category-container {
+  width: 80%;
+  height: 260px;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+@mixin category-box {
+  width: 45%;
+  height: 115px;
+  background-color: $pale-green-colour;
+  opacity: 70%;
+  border-radius: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+@mixin background-phone {
+  margin: 0;
+  background-color: $green-colour;
+  background-size: 100% 632px;
+}
+
+@import 'modules/_icons.scss';
+
+h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 14px;
+  color: $dark-grey-colour;
+}
+
+.health-heading {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  margin-left: 8%;
+  margin-top: -5px;
+  color: $dark-grey-colour;
+}
+
+.home-body {
+  @include background-phone;
+  background-image: url("site-images/stereo-verticle.jpg");
+}
+
+.options-body {
+  @include background-phone;
+  background-image: url("site-images/lamp-verticle.jpg");
+}
+
+.options2-body {
+  @include background-phone;
+  background-image: url("site-images/oven-verticle.jpg");
+}
+
+.options3-body {
+  @include background-phone;
+  background-image: url("site-images/mirror-verticle.jpg");
+}
+
+.options4-body {
+  @include background-phone;
+  background-image: url("site-images/speaker-verticle.jpg");
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  opacity: 70%;
+}
+
+.header-logo {
+  width: 188px;
+  height: 62.5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.header-logo2 {
+  width: 0%;
+  height: 0px;
+}
+
+.categories-container {
+  @include flex;
+  @include category-container;
+}
+
+.spacer, .spacer3 {
+  width: 0%;
+  height: 0px;
+}
+
+.category-home1 {
+  @include category-box;
+}
+
+.category-home2 {
+  @include category-box;
+  margin-left: 10%;
+}
+
+.footer {
+  width: 100%;
+  height: 65px;
+  background-color: white;
+  opacity: 70%;
+  position: fixed;
+  bottom: 0;
+}
+
+.pictorial {
+  width: 50px;
+  height: 45px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.bi-house-door-fill {
+  font-size: 50px;
+  color: $green-colour;
+  position: fixed;
+  bottom: 3px;
+  right: 20px;
+}
+
+#home-icon-home {
+  font-size: 50px;
+  color: $mid-grey-colour;
+  position: fixed;
+  bottom: 3px;
+  right: 20px;
+}
+
+
+// This marks the start of the CSS for the categories pages.
+
+.categories-container2 {
+  @include flex;
+  @include category-container;
+  height: 260px;
+}
+
+.category-home3, .category-home3-2 {
+  @include category-box;
+}
+
+.category-home4 {
+  @include category-box;
+  margin-left: 10%;
+}
+
+.category-home5 {
+  width: 45%;
+  height: 115px;
+  background-color: $green-colour;
+  opacity: 70%;
+  border-radius: 20px;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.plus-icon-box {
+  width: 51px;
+  height: 54px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.bi-plus-circle-fill {
+  font-size: 50px;
+  color: white;
+}
+
+// This marks the start of the CSS for the categories pages.
+
+.options-container, .add-container {
+  @include flex;
+  width: 90%;
+  height: 510px;
+  margin-top: 30px;
+  margin-left: 5%;
+}
+
+@mixin options-box {
+  width: 100%;
+  background-color: $pale-green-colour;
+  opacity: 70%;
+  border-radius: 20px;
+}
+
+.option-box1 {
+  @include options-box;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.option-box2 {
+  @include options-box;
+  height: 190px;
+  margin-bottom: 10px;
+}
+
+.option-box3 {
+  @include options-box;
+  background-color: $green-colour;
+  height: 150px;
+}
+
+
+.bi-arrow-left-circle-fill {
+  font-size: 45px;
+  color: $green-colour;
+  position: fixed;
+  bottom: 5px;
+  right: 85px;
+}
+
+.option-title {
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+  text-align: center;
+  color: $dark-grey-colour;
+  margin-top: 20px;
+}
+
+h2 {
+  font-family: 'Righteous', cursive;
+  font-size: 18px;
+  text-align: center;
+  color: $dark-grey-colour;
+}
+
+.on-off {
+  @include flex;
+  width: 76%;
+  height: 45px;
+  margin-left: 13%;
+  margin-top: 35px;
+}
+
+.on-off-text {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+@import 'modules/_switch-range.scss';
+
+
+// This marks the beginning of the Audio pages CSS (Options 4, 5 & 6).
+
+.battery {
+  font-family: 'Righteous', cursive;
+  font-size: 58px;
+  color: white;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.skip-buttons {
+  width: 170px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: -15px;
+}
+
+.bi-arrow-left-circle {
+  font-size: 50px;
+  color: white;
+}
+
+.bi-arrow-right-circle {
+  font-size: 50px;
+  color: white;
+  margin-left: 65px;
+}
+
+// This marks the beginning of the Add New Electronic page CSS.
+
+.option-box4 {
+  width: 100%;
+  height: 500px;
+  background-color: $pale-green-colour;
+  opacity: 70%;
+  border-radius: 20px;
+}
+
+.bar-container {
+  width: 80%;
+  height: 180px;
+  margin: 0 auto;
+}
+
+.add-name {
+  width: 94%;
+  height: 37px;
+  background-color: $dark-grey-colour;
+  color: white;
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+  padding-left: 12px;
+  border: none;
+  border-radius: 50px;
+}
+
+// Below is for the FIRST dropdown (room selector).
+.dropdown-rooms-button1, .dropdown-rooms-button2 {
+  width: 230px;
+  height: 40px;
+  margin-top: 30px;
+  background-color: $dark-grey-colour;
+  font-family: 'Righteous', cursive;
+  text-align: left;
+  padding-left: 16px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+}
+
+// Positions the content that drops down.
+.dropdown1, .dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content1, .dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: $green-colour;
+  min-width: 230px;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.dropdown-content1 a, .dropdown-content2 a {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+// My JS uses this to show the dropdown menu
+.show, .show2 {display:block;}
+
+.bluetooth-container {
+  @include flex;
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.bluetooth-text, .visit-text {
+  width: 63%;
+  text-align: left;
+  margin-right: 10%;
+  color: $dark-grey-colour;
+}
+
+.visit-container {
+  @include flex;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 110px;
+}
+
+.visit-container-laptop {
+  width: 0%;
+  height: 0px;
+}
+
+.visit-text-laptop {
+  font-size: 0px;
+}
+
+.option-box5 {
+  width: 0%;
+  height: 0px;
+}
+
+.bi-arrow-up-right-circle {
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 66%;
+}
+
+#laptop-up-right-arrow {
+  font-size: 0px;
+}
+
+.bi-bluetooth {
+  font-size: 50px;
+  color: $dark-grey-colour;
+  margin-top: 12px;
+}
+
+
+
+
+@media only screen and (min-width: 425px) {
+  // adjustments for Large Phones:
+
+  @mixin category-container {
+    width: 70%;
+    height: 260px;
+    margin-top: 5px;
+    margin-left: 15%;
+  }
+
+  @mixin category-box {
+    width: 45%;
+    height: 130px;
+    background-color: $pale-green-colour;
+    opacity: 70%;
+    border-radius: 20px;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+
+  .categories-container {
+    @include flex;
+    @include category-container;
+  }
+
+  .category-home1 {
+    @include category-box;
+  }
+
+  .category-home2 {
+    @include category-box;
+    margin-left: 10%;
+  }
+
+
+  // This marks the start of the CSS for the categories pages.
+
+  .categories-container2 {
+    @include category-container;
+    margin-top: 30px;
+  }
+
+  .category-home3, .category-home3-2 {
+    @include category-box;
+  }
+
+  .category-home4 {
+    @include category-box;
+    margin-left: 10%;
+  }
+
+  .category-home5 {
+    width: 45%;
+    height: 130px;
+    margin-top: 15px;
+  }
+
+  .bi-plus-circle-fill {
+    font-size: 55px;
+  }
+
+  // This marks the beginning of the Add New Electronic page CSS.
+
+  // Below is for the FIRST dropdown (room selector).
+  .dropdown-rooms-button1, .dropdown-rooms-button2 {
+    width: 300px;
+  }
+
+  .dropdown-content1, .dropdown-content2 {
+    min-width: 300px;
+  }
+
+  .bluetooth-text, .visit-text {
+    margin-right: 15%;
+  }
+
+}
+
+@import 'modules/_tablet.scss';
+
+@import 'modules/_laptop.scss';

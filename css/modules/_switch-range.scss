@@ -1,0 +1,100 @@
+
+// THIS PAGE IS FOR THE SWITCH AND RANGE SLIDER
+
+// This controls the size of the whole switch.
+.switch {
+  position: fixed;
+  display: inline-block;
+  right: 15%;
+  width: 90px;
+  height: 44px;
+}
+
+// This is getting rid of the default checkbox.
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+// This is the setting for the box around the slidey button.
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: $mid-grey-colour;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50px;
+}
+
+// This is the little white sliding button.
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 36px;
+  width: 36px;
+  left: 3px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50px;
+}
+
+input:checked + .slider {
+  background-color: $green-colour;
+}
+
+// This is what's making the white button slide
+input:checked + .slider:before {
+  transform: translateX(46px);
+}
+
+
+// Below is for the range silder.
+
+.range-slider1 {
+  height: 25px;
+  width: 80%;
+  border-radius: 10px;
+  margin: 0 auto;
+  // padding: 5px 65px 0 45px;
+}
+
+// This styles the size of the sliding bar (it's in this div).
+.field{
+  width: 100%;
+  margin: 0 auto;
+}
+
+// This styles the sliding bar.
+.range-slider1 input{
+  -webkit-appearance: none;
+  width: 99%;
+  height: 20px;
+  background-color: $green-colour;
+  border-radius: 50px;
+}
+
+// This styles the sliding button.
+.range-slider1 input::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: white;
+}
+
+.range-slider1 input::-moz-range-thumb{
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 50%;
+  background: #664AFF;
+  border: 1px solid #664AFF;
+  cursor: pointer;
+}

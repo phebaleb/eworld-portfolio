@@ -1,0 +1,511 @@
+
+// THIS PAGE IS FOR REGULAR/SMALL AND LARGE LAPTOPS
+
+@media only screen and (min-width: 1024px) {
+  // adjustments for Laptops:
+
+  @mixin category-container {
+    width: 90%;
+    height: 440px;
+    margin-top: 80px;
+    margin-left: 6%;
+  }
+
+  @mixin category-box {
+    width: 30%;
+    height: 200px;
+    background-color: $pale-green-colour;
+    opacity: 70%;
+    border-radius: 20px;
+    margin-top: 1px;
+    margin-left: 2%;
+    text-align: center;
+  }
+
+  @mixin options-box-tablet {
+    width: 31%;
+    height: 600px;
+    background-color: $pale-green-colour;
+    opacity: 70%;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  @mixin background-laptop {
+    margin: 0;
+    background-color: $green-colour;
+    background-size: 100% 1180px;
+  }
+
+  // Below are all the home category icons
+
+  @mixin icons-laptop {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .bedroom-icon {
+    @include icons-laptop;
+    background-image: url("site-images/bed-icon.png");
+  }
+
+  .lounge-icon {
+    @include icons-laptop;
+    background-image: url("site-images/couch-icon.png");
+  }
+
+  .kitchen-icon {
+    @include icons-laptop;
+    background-image: url("site-images/kettle-icon.png");
+  }
+
+  .bathroom-icon {
+    @include icons-laptop;
+    background-image: url("site-images/bath-icon.png");
+  }
+
+  .outhouse-icon {
+    @include icons-laptop;
+    background-image: url("site-images/outhouse-icon.png");
+  }
+
+  .audio-icon {
+    @include icons-laptop;
+    background-image: url("site-images/speaker.png");
+  }
+
+  // Below are all the option category icons
+
+  .down-icon {
+    @include icons-laptop;
+    background-image: url("site-images/down-icon.png");
+  }
+
+  .lamp-icon {
+    @include icons-laptop;
+    background-image: url("site-images/lamp-icon.png");
+  }
+
+  .heater-icon {
+    @include icons-laptop;
+    background-image: url("site-images/heater-icon.png");
+  }
+
+  .mirror-icon {
+    @include icons-laptop;
+    background-image: url("site-images/mirror-icon.png");
+  }
+
+  .ueboom-icon {
+    @include icons-laptop;
+    background-image: url("site-images/ueboom-icon.png");
+  }
+
+  .surround-icon {
+    @include icons-laptop;
+    background-image: url("site-images/surround-icon.png");
+  }
+
+  .stereo-icon {
+    @include icons-laptop;
+    background-image: url("site-images/speaker.png");
+  }
+
+
+
+
+  .home-body {
+    @include background-laptop;
+    background-image: url("site-images/stereo-horizontal.jpg");
+  }
+
+  .options-body {
+    @include background-laptop;
+    background-image: url("site-images/lamp-horizontal.jpg");
+  }
+
+  .options2-body {
+    @include background-laptop;
+    background-image: url("site-images/oven-horizontal.jpg");
+  }
+
+  .options3-body {
+    @include background-laptop;
+    background-image: url("site-images/mirror-horizontal.jpg");
+  }
+
+  .options4-body {
+    @include background-laptop;
+    background-image: url("site-images/speaker-horizontal.jpg");
+  }
+
+  h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    color: $dark-grey-colour;
+  }
+
+  .health-heading {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    margin-left: 40px;
+    margin-top: 35px;
+    margin-right: 40px;
+    text-align: center;
+  }
+
+  .home-body, .options-body {
+    margin: 0;
+    background-image: url("site-images/stereo-horizontal.jpg");
+    background-color: $green-colour;
+    background-size: 100% 900px;
+  }
+
+  .header {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    opacity: 70%;
+  }
+
+  .header-logo {
+    width: 0%;
+    height: 0px;
+  }
+
+  .header-logo2 {
+    width: 350px;
+    height: 115px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6px;
+  }
+
+  .categories-container {
+    @include flex;
+    @include category-container;
+  }
+
+  .spacer, .spacer2, .spacer3 {
+    width: 100%;
+    height: 110px;
+    margin: 0 auto;
+  }
+
+  .category-home1 {
+    @include category-box;
+  }
+
+  .category-home2 {
+    @include category-box;
+  }
+
+  .placeholder {
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .footer {
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    opacity: 70%;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .pictorial {
+    width: 70px;
+    height: 62px;
+    margin-left: 40px;
+    margin-top: 15px;
+  }
+
+  .bi-house-door-fill {
+    font-size: 66px;
+    bottom: 6px;
+    right: 60px;
+  }
+
+  #home-icon-home {
+    font-size: 66px;
+    bottom: 6px;
+    right: 60px;
+  }
+
+
+  // This marks the start of the CSS for the categories pages.
+
+  .categories-container2 {
+    @include flex;
+    @include category-container;
+  }
+
+  .category-home3 {
+    @include category-box;
+  }
+
+  .category-home3-2 {
+    @include category-box;
+  }
+
+  .category-home4 {
+    @include category-box;
+  }
+
+  .category-home5 {
+    width: 30%;
+    height: 200px;
+    background-color: $green-colour;
+    margin-top: 1px;
+    margin-left: 2%;
+  }
+
+  .plus-icon-box {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+
+  // This marks the start of the CSS for the categories pages.
+
+  .options-container {
+    @include flex;
+    width: 90%;
+    height: 600px;
+    margin-top: 80px;
+    margin-left: 6.5%;
+  }
+
+  .option-box1 {
+    @include options-box-tablet;
+    margin-right: 2%;
+  }
+
+  .option-box2 {
+    @include options-box-tablet;
+    height: 510px;
+    padding-top: 90px;
+  }
+
+  .option-box3 {
+    width: 31%;
+    height: 510px;
+    padding-top: 90px;
+    margin-top: 0px;
+    margin-left: 2%;
+    margin-bottom: 0px;
+  }
+
+  h2 {
+    font-family: 'Righteous', cursive;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .on-off {
+    @include flex;
+    width: 45%;
+    height: 65px;
+    margin: 0 auto;
+    margin-top: 115px;
+  }
+
+  .on-off-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
+    margin-top: 15px;
+  }
+
+  // Below is for the switch.
+
+  // This controls the size of the whole switch.
+  .switch {
+    position: absolute;
+    display: inline-block;
+    right: 73.5%;
+    top: 415px;
+    width: 120px;
+    height: 64px;
+  }
+
+  // This is the little white sliding button.
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 54px;
+    width: 54px;
+    left: 5px;
+  }
+
+  // Below is for the range silder.
+
+  .range-slider1 {
+    margin-top: 50px;
+  }
+
+  // This marks the beginning of the Audio pages CSS (Options 4, 5 & 6).
+
+  .battery {
+    margin-top: 80px;
+  }
+
+  .bi-arrow-left-circle {
+    font-size: 60px;
+  }
+
+  .bi-arrow-right-circle {
+    font-size: 60px;
+    margin-left: 45px;
+  }
+
+  // This marks the beginning of the Add New Electronic page CSS.
+
+  .add-container {
+    height: 600px;
+    margin-top: 80px;
+  }
+
+  .option-box4 {
+    width: 58%;
+    height: 600px;
+    margin-top: 0px;
+    margin-left: 0%;
+  }
+
+  .option-box5 {
+    width: 40%;
+    height: 600px;
+    background-color: $green-colour;
+    opacity: 70%;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-left: 2%;
+  }
+
+  .bar-container {
+    height: 250px;
+    margin-top: 50px;
+  }
+
+  // Below is for the FIRST dropdown (room selector).
+  .dropdown-rooms-button1, .dropdown-rooms-button2 {
+    width: 375px;
+  }
+
+  .dropdown-content1 a, .dropdown-content2 a {
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+
+  .bluetooth-container {
+    width: 70%;
+    margin-top: 50px;
+  }
+
+  .visit-text {
+    display: none;
+  }
+
+  .visit-container {
+    display: none;
+  }
+
+  .visit-container-laptop {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+
+  .visit-text-laptop {
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    margin-right: 0%;
+    color: $dark-grey-colour;
+  }
+
+  #laptop-up-right-arrow {
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    left: 73%;
+    top: 66%;
+  }
+
+  .bi-bluetooth {
+    margin-top: 20px;
+  }
+
+  .bi-arrow-left-circle-fill {
+    font-size: 56px;
+    bottom: 8px;
+    right: 180px;
+  }
+
+}
+
+
+@media only screen and (min-width: 1440px) {
+
+  @mixin category-container-L {
+    width: 70%;
+    height: 440px;
+    margin-top: 80px;
+    margin-left: 15%;
+  }
+
+  .categories-container, .categories-container2 {
+    @include flex;
+    @include category-container-L;
+  }
+
+  .switch {
+    position: absolute;
+    display: inline-block;
+    right: 75%;
+    top: 415px;
+    width: 120px;
+    height: 64px;
+  }
+
+  .add-container {
+    width: 80%;
+    height: 600px;
+    margin-top: 80px;
+    margin-left: 10%;
+  }
+
+  .dropdown-rooms-button1, .dropdown-rooms-button2 {
+    width: 470px;
+  }
+
+  #laptop-up-right-arrow {
+    font-size: 86px;
+    color: white;
+    position: absolute;
+    left: 71%;
+    top: 66%;
+  }
+
+  .on-off-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
+    margin-top: 15px;
+    margin: 0 auto;
+  }
+
+
+}

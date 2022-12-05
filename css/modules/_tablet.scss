@@ -1,0 +1,399 @@
+
+// THIS PAGE IS FOR TABLETS/IPADS
+
+$green-colour: #37A749;
+$pale-green-colour: #B0D684;
+$mid-grey-colour: #808285;
+$dark-grey-colour: #414042;
+
+
+@media only screen and (min-width: 768px) {
+  // adjustments for Tablets:
+
+  @mixin flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @mixin category-container {
+    width: 76%;
+    height: 760px;
+    margin-top: 30px;
+    margin-left: 12%;
+  }
+
+  @mixin category-box {
+    width: 45%;
+    height: 220px;
+    margin-top: 1px;
+  }
+
+  @mixin background-tablet {
+    margin: 0;
+    background-color: $green-colour;
+    background-size: 100% 1200px;
+  }
+
+  // Below are all the home category and option category icons
+
+  @mixin icons-tablet {
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 45px;
+  }
+
+  .bedroom-icon, .lounge-icon, .kitchen-icon, .bathroom-icon, .outhouse-icon, .audio-icon, .down-icon, .lamp-icon, .heater-icon, .mirror-icon, .ueboom-icon, .surround-icon, .stereo-icon {
+    @include icons-tablet;
+  }
+
+  .home-body, .options-body, .options2-body, .options3-body, .options4-body {
+    @include background-tablet;
+  }
+
+
+  h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    color: $dark-grey-colour;
+  }
+
+  .health-heading {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    margin-left: 0px;
+    margin-top: 35px;
+    text-align: center;
+  }
+
+  .header {
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    opacity: 70%;
+  }
+
+  .header-logo {
+    width: 0%;
+    height: 0px;
+  }
+
+  .header-logo2 {
+    width: 300px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6px;
+  }
+
+  .categories-container {
+    @include flex;
+    @include category-container;
+  }
+
+  .spacer, .spacer3 {
+    width: 76%;
+    height: 100px;
+    margin-left: 12%;
+  }
+
+  .spacer2 {
+    width: 76%;
+    height: 260px;
+    margin-left: 12%;
+  }
+
+  .category-home1 {
+    @include category-box;
+  }
+
+  .category-home2 {
+    @include category-box;
+    margin-left: 10%;
+  }
+
+  .footer {
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    opacity: 70%;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .pictorial {
+    width: 70px;
+    height: 62px;
+    margin-left: 40px;
+    margin-top: 15px;
+  }
+
+  .bi-house-door-fill {
+    font-size: 66px;
+    bottom: 6px;
+    right: 40px;
+  }
+
+  #home-icon-home {
+    font-size: 66px;
+    bottom: 6px;
+    right: 40px;
+  }
+
+
+  // This marks the start of the CSS for the categories pages.
+
+  .categories-container2 {
+    @include flex;
+    // @include category-container;
+    width: 76%;
+    height: 500px;
+    margin-top: 120px;
+    margin-left: 12%;
+  }
+
+  .category-home3 {
+    @include category-box;
+  }
+
+  .category-home3-2 {
+    width: 45%;
+    height: 220px;
+    background-color: $pale-green-colour;
+    opacity: 70%;
+    border-radius: 20px;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .category-home4 {
+    @include category-box;
+    margin-left: 10%;
+  }
+
+  .category-home5 {
+    width: 45%;
+    height: 220px;
+    background-color: $green-colour;
+    opacity: 70%;
+    border-radius: 20px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 10%;
+  }
+
+  .plus-icon-box {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .bi-plus-circle-fill {
+    font-size: 86px;
+    color: white;
+  }
+
+  // This marks the start of the CSS for the categories pages.
+
+  .options-container, .add-container {
+    @include flex;
+    width: 90%;
+    height: 1000px;
+    margin-top: 30px;
+    margin-left: 5%;
+  }
+
+
+  @mixin options-box-tablet {
+    width: 100%;
+    background-color: $pale-green-colour;
+    opacity: 70%;
+    border-radius: 20px;
+  }
+
+  .option-box1 {
+    @include options-box-tablet;
+    height: 285px;
+    margin-bottom: 10px;
+  }
+
+  .option-box2 {
+    @include options-box-tablet;
+    height: 320px;
+    margin-bottom: 10px;
+  }
+
+  .option-box3 {
+    @include options-box-tablet;
+    background-color: $green-colour;
+    height: 300px;
+  }
+
+  .bi-arrow-left-circle-fill {
+    font-size: 56px;
+    bottom: 8px;
+    right: 140px;
+  }
+
+  .option-title {
+    font-size: 32px;
+    margin-top: 40px;
+  }
+
+  h2 {
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .on-off {
+    margin-top: 75px;
+  }
+
+  .on-off-text {
+    font-size: 24px;
+  }
+
+  // Below is for the switch.
+
+  // This controls the size of the whole switch.
+  .switch {
+    position: absolute;
+    display: inline-block;
+    right: 20%;
+    width: 120px;
+    height: 64px;
+  }
+
+  // This is the little white sliding button.
+  .slider:before {
+    height: 54px;
+    width: 54px;
+    left: 5px;
+    bottom: 5px;
+  }
+
+  // This is what's making the white button slide
+  input:checked + .slider:before {
+    transform: translateX(54px);
+  }
+
+
+  // Below is for the range silder.
+
+  .range-slider1 {
+    width: 65%;
+    height: 65px;
+    padding-top: 20px;
+  }
+
+  // This styles the sliding bar.
+  .range-slider1 input{
+    height: 35px;
+  }
+
+  // This styles the sliding button.
+  .range-slider1 input::-webkit-slider-thumb{
+    width: 50px;
+    height: 50px;
+  }
+
+  // This marks the beginning of the Audio pages' CSS (Options 4, 5 & 6).
+
+  .battery {
+    font-family: 'Righteous', cursive;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .skip-buttons {
+    width: 170px;
+    height: 55px;
+    margin: 0 auto;
+    margin-top: -15px;
+  }
+
+  .bi-arrow-left-circle {
+    font-size: 50px;
+    color: white;
+  }
+
+  .bi-arrow-right-circle {
+    font-size: 50px;
+    color: white;
+    margin-left: 65px;
+  }
+
+  // This marks the beginning of the Add New Electronic page CSS.
+
+  .option-box4 {
+    width: 84%;
+    height: 800px;
+    margin-top: 30px;
+    margin-left: 8%;
+  }
+
+  .bar-container {
+    width: 70%;
+  }
+
+  .add-name {
+    height: 60px;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  // Below is for the FIRST dropdown (room selector).
+  .dropdown-rooms-button1, .dropdown-rooms-button2 {
+    width: 396px;
+    height: 60px;
+    padding-left: 24px;
+    font-size: 24px;
+  }
+
+  .dropdown-content1, .dropdown-content2 {
+    min-width: 396px;
+  }
+
+  .dropdown-content1 a, .dropdown-content2 a {
+    font-size: 18px;
+  }
+
+  .bluetooth-container {
+    width: 55%;
+    margin-top: 150px;
+  }
+
+  .bluetooth-text, .visit-text {
+    width: 63%;
+    margin-right: 10%;
+  }
+
+  .visit-container {
+    width: 55%;
+    margin-top: 50px;
+  }
+
+  .option-box5 {
+    width: 0%;
+    height: 0px;
+  }
+
+  .bi-arrow-up-right-circle {
+    font-size: 80px;
+    top: 105%;
+  }
+
+  #laptop-up-right-arrow {
+    font-size: 0px;
+  }
+
+  .bi-bluetooth {
+    font-size: 80px;
+  }
+
+}

@@ -1,0 +1,79 @@
+
+// THIS PAGE IS FOR THE CATEGORY & OPTION ICONS
+
+@mixin icons {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.bedroom-icon {
+  @include icons;
+  background-image: url("site-images/bed-icon.png");
+}
+
+.lounge-icon {
+  @include icons;
+  background-image: url("site-images/couch-icon.png");
+}
+
+.kitchen-icon {
+  @include icons;
+  background-image: url("site-images/kettle-icon.png");
+}
+
+.bathroom-icon {
+  @include icons;
+  background-image: url("site-images/bath-icon.png");
+}
+
+.outhouse-icon {
+  @include icons;
+  background-image: url("site-images/outhouse-icon.png");
+}
+
+.audio-icon {
+  @include icons;
+  background-image: url("site-images/speaker.png");
+}
+
+// Below are all the option category icons
+
+.down-icon {
+  @include icons;
+  background-image: url("site-images/down-icon.png");
+}
+
+.lamp-icon {
+  @include icons;
+  background-image: url("site-images/lamp-icon.png");
+}
+
+.heater-icon {
+  @include icons;
+  background-image: url("site-images/heater-icon.png");
+}
+
+.mirror-icon {
+  @include icons;
+  background-image: url("site-images/mirror-icon.png");
+}
+
+.ueboom-icon {
+  @include icons;
+  background-image: url("site-images/ueboom-icon.png");
+}
+
+.surround-icon {
+  @include icons;
+  background-image: url("site-images/surround-icon.png");
+}
+
+.stereo-icon {
+  @include icons;
+  background-image: url("site-images/speaker.png");
+}

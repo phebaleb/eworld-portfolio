@@ -1,0 +1,1523 @@
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.bedroom-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-image: url("site-images/bed-icon.png");
+}
+
+.lounge-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-image: url("site-images/couch-icon.png");
+}
+
+.kitchen-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-image: url("site-images/kettle-icon.png");
+}
+
+.bathroom-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-image: url("site-images/bath-icon.png");
+}
+
+.outhouse-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-image: url("site-images/outhouse-icon.png");
+}
+
+.audio-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-image: url("site-images/speaker.png");
+}
+
+.down-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-image: url("site-images/down-icon.png");
+}
+
+.lamp-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-image: url("site-images/lamp-icon.png");
+}
+
+.heater-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-image: url("site-images/heater-icon.png");
+}
+
+.mirror-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-image: url("site-images/mirror-icon.png");
+}
+
+.ueboom-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-image: url("site-images/ueboom-icon.png");
+}
+
+.surround-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-image: url("site-images/surround-icon.png");
+}
+
+.stereo-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-image: url("site-images/speaker.png");
+}
+
+h1 {
+  font-family: "Righteous", cursive;
+  font-size: 14px;
+  color: #414042;
+}
+
+.health-heading {
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  margin-left: 8%;
+  margin-top: -5px;
+  color: #414042;
+}
+
+.home-body {
+  margin: 0;
+  background-color: #37A749;
+  background-size: 100% 632px;
+  background-image: url("site-images/stereo-verticle.jpg");
+}
+
+.options-body {
+  margin: 0;
+  background-color: #37A749;
+  background-size: 100% 632px;
+  background-image: url("site-images/lamp-verticle.jpg");
+}
+
+.options2-body {
+  margin: 0;
+  background-color: #37A749;
+  background-size: 100% 632px;
+  background-image: url("site-images/oven-verticle.jpg");
+}
+
+.options3-body {
+  margin: 0;
+  background-color: #37A749;
+  background-size: 100% 632px;
+  background-image: url("site-images/mirror-verticle.jpg");
+}
+
+.options4-body {
+  margin: 0;
+  background-color: #37A749;
+  background-size: 100% 632px;
+  background-image: url("site-images/speaker-verticle.jpg");
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  opacity: 70%;
+}
+
+.header-logo {
+  width: 188px;
+  height: 62.5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.header-logo2 {
+  width: 0%;
+  height: 0px;
+}
+
+.categories-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 260px;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+.spacer, .spacer3 {
+  width: 0%;
+  height: 0px;
+}
+
+.category-home1 {
+  width: 45%;
+  height: 115px;
+  background-color: #B0D684;
+  opacity: 70%;
+  border-radius: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.category-home2 {
+  width: 45%;
+  height: 115px;
+  background-color: #B0D684;
+  opacity: 70%;
+  border-radius: 20px;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.footer {
+  width: 100%;
+  height: 65px;
+  background-color: white;
+  opacity: 70%;
+  position: fixed;
+  bottom: 0;
+}
+
+.pictorial {
+  width: 50px;
+  height: 45px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.bi-house-door-fill {
+  font-size: 50px;
+  color: #37A749;
+  position: fixed;
+  bottom: 3px;
+  right: 20px;
+}
+
+#home-icon-home {
+  font-size: 50px;
+  color: #808285;
+  position: fixed;
+  bottom: 3px;
+  right: 20px;
+}
+
+.categories-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 260px;
+  margin-top: 20px;
+  margin-left: 10%;
+  height: 260px;
+}
+
+.category-home3, .category-home3-2 {
+  width: 45%;
+  height: 115px;
+  background-color: #B0D684;
+  opacity: 70%;
+  border-radius: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.category-home4 {
+  width: 45%;
+  height: 115px;
+  background-color: #B0D684;
+  opacity: 70%;
+  border-radius: 20px;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.category-home5 {
+  width: 45%;
+  height: 115px;
+  background-color: #37A749;
+  opacity: 70%;
+  border-radius: 20px;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.plus-icon-box {
+  width: 51px;
+  height: 54px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.bi-plus-circle-fill {
+  font-size: 50px;
+  color: white;
+}
+
+.options-container, .add-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 510px;
+  margin-top: 30px;
+  margin-left: 5%;
+}
+
+.option-box1 {
+  width: 100%;
+  background-color: #B0D684;
+  opacity: 70%;
+  border-radius: 20px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.option-box2 {
+  width: 100%;
+  background-color: #B0D684;
+  opacity: 70%;
+  border-radius: 20px;
+  height: 190px;
+  margin-bottom: 10px;
+}
+
+.option-box3 {
+  width: 100%;
+  background-color: #B0D684;
+  opacity: 70%;
+  border-radius: 20px;
+  background-color: #37A749;
+  height: 150px;
+}
+
+.bi-arrow-left-circle-fill {
+  font-size: 45px;
+  color: #37A749;
+  position: fixed;
+  bottom: 5px;
+  right: 85px;
+}
+
+.option-title {
+  font-family: "Righteous", cursive;
+  font-size: 20px;
+  text-align: center;
+  color: #414042;
+  margin-top: 20px;
+}
+
+h2 {
+  font-family: "Righteous", cursive;
+  font-size: 18px;
+  text-align: center;
+  color: #414042;
+}
+
+.on-off {
+  display: flex;
+  flex-wrap: wrap;
+  width: 76%;
+  height: 45px;
+  margin-left: 13%;
+  margin-top: 35px;
+}
+
+.on-off-text {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.switch {
+  position: fixed;
+  display: inline-block;
+  right: 15%;
+  width: 90px;
+  height: 44px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #808285;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 36px;
+  width: 36px;
+  left: 3px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+input:checked + .slider {
+  background-color: #37A749;
+}
+
+input:checked + .slider:before {
+  transform: translateX(46px);
+}
+
+.range-slider1 {
+  height: 25px;
+  width: 80%;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.field {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.range-slider1 input {
+  -webkit-appearance: none;
+  width: 99%;
+  height: 20px;
+  background-color: #37A749;
+  border-radius: 50px;
+}
+
+.range-slider1 input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: white;
+}
+
+.range-slider1 input::-moz-range-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 50%;
+  background: #664AFF;
+  border: 1px solid #664AFF;
+  cursor: pointer;
+}
+
+.battery {
+  font-family: "Righteous", cursive;
+  font-size: 58px;
+  color: white;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.skip-buttons {
+  width: 170px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: -15px;
+}
+
+.bi-arrow-left-circle {
+  font-size: 50px;
+  color: white;
+}
+
+.bi-arrow-right-circle {
+  font-size: 50px;
+  color: white;
+  margin-left: 65px;
+}
+
+.option-box4 {
+  width: 100%;
+  height: 500px;
+  background-color: #B0D684;
+  opacity: 70%;
+  border-radius: 20px;
+}
+
+.bar-container {
+  width: 80%;
+  height: 180px;
+  margin: 0 auto;
+}
+
+.add-name {
+  width: 94%;
+  height: 37px;
+  background-color: #414042;
+  color: white;
+  font-size: 18px;
+  font-family: "Quicksand", sans-serif;
+  padding-left: 12px;
+  border: none;
+  border-radius: 50px;
+}
+
+.dropdown-rooms-button1, .dropdown-rooms-button2 {
+  width: 230px;
+  height: 40px;
+  margin-top: 30px;
+  background-color: #414042;
+  font-family: "Righteous", cursive;
+  text-align: left;
+  padding-left: 16px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+}
+
+.dropdown1, .dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content1, .dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #37A749;
+  min-width: 230px;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.dropdown-content1 a, .dropdown-content2 a {
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.show, .show2 {
+  display: block;
+}
+
+.bluetooth-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.bluetooth-text, .visit-text {
+  width: 63%;
+  text-align: left;
+  margin-right: 10%;
+  color: #414042;
+}
+
+.visit-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 110px;
+}
+
+.visit-container-laptop {
+  width: 0%;
+  height: 0px;
+}
+
+.visit-text-laptop {
+  font-size: 0px;
+}
+
+.option-box5 {
+  width: 0%;
+  height: 0px;
+}
+
+.bi-arrow-up-right-circle {
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 66%;
+}
+
+#laptop-up-right-arrow {
+  font-size: 0px;
+}
+
+.bi-bluetooth {
+  font-size: 50px;
+  color: #414042;
+  margin-top: 12px;
+}
+
+@media only screen and (min-width: 425px) {
+  h1 {
+    font-size: 16px;
+  }
+  .categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 260px;
+    margin-top: 5px;
+    margin-left: 15%;
+  }
+  .category-home1 {
+    width: 45%;
+    height: 130px;
+    background-color: #B0D684;
+    opacity: 70%;
+    border-radius: 20px;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .category-home2 {
+    width: 45%;
+    height: 130px;
+    background-color: #B0D684;
+    opacity: 70%;
+    border-radius: 20px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 10%;
+  }
+  .categories-container2 {
+    width: 70%;
+    height: 260px;
+    margin-top: 5px;
+    margin-left: 15%;
+    margin-top: 30px;
+  }
+  .category-home3, .category-home3-2 {
+    width: 45%;
+    height: 130px;
+    background-color: #B0D684;
+    opacity: 70%;
+    border-radius: 20px;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .category-home4 {
+    width: 45%;
+    height: 130px;
+    background-color: #B0D684;
+    opacity: 70%;
+    border-radius: 20px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 10%;
+  }
+  .category-home5 {
+    width: 45%;
+    height: 130px;
+    margin-top: 15px;
+  }
+  .bi-plus-circle-fill {
+    font-size: 55px;
+  }
+  .dropdown-rooms-button1, .dropdown-rooms-button2 {
+    width: 300px;
+  }
+  .dropdown-content1, .dropdown-content2 {
+    min-width: 300px;
+  }
+  .bluetooth-text, .visit-text {
+    margin-right: 15%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .bedroom-icon, .lounge-icon, .kitchen-icon, .bathroom-icon, .outhouse-icon, .audio-icon, .down-icon, .lamp-icon, .heater-icon, .mirror-icon, .ueboom-icon, .surround-icon, .stereo-icon {
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 45px;
+  }
+  .home-body, .options-body, .options2-body, .options3-body, .options4-body {
+    margin: 0;
+    background-color: #37A749;
+    background-size: 100% 1200px;
+  }
+  h1 {
+    font-family: "Righteous", cursive;
+    font-size: 24px;
+    color: #414042;
+  }
+  .health-heading {
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    margin-left: 0px;
+    margin-top: 35px;
+    text-align: center;
+  }
+  .header {
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    opacity: 70%;
+  }
+  .header-logo {
+    width: 0%;
+    height: 0px;
+  }
+  .header-logo2 {
+    width: 300px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6px;
+  }
+  .categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 76%;
+    height: 760px;
+    margin-top: 30px;
+    margin-left: 12%;
+  }
+  .spacer, .spacer3 {
+    width: 76%;
+    height: 100px;
+    margin-left: 12%;
+  }
+  .spacer2 {
+    width: 76%;
+    height: 260px;
+    margin-left: 12%;
+  }
+  .category-home1 {
+    width: 45%;
+    height: 220px;
+    margin-top: 1px;
+  }
+  .category-home2 {
+    width: 45%;
+    height: 220px;
+    margin-top: 1px;
+    margin-left: 10%;
+  }
+  .footer {
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    opacity: 70%;
+    position: fixed;
+    bottom: 0;
+  }
+  .pictorial {
+    width: 70px;
+    height: 62px;
+    margin-left: 40px;
+    margin-top: 15px;
+  }
+  .bi-house-door-fill {
+    font-size: 66px;
+    bottom: 6px;
+    right: 40px;
+  }
+  #home-icon-home {
+    font-size: 66px;
+    bottom: 6px;
+    right: 40px;
+  }
+  .categories-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 76%;
+    height: 500px;
+    margin-top: 120px;
+    margin-left: 12%;
+  }
+  .category-home3 {
+    width: 45%;
+    height: 220px;
+    margin-top: 1px;
+  }
+  .category-home3-2 {
+    width: 45%;
+    height: 220px;
+    background-color: #B0D684;
+    opacity: 70%;
+    border-radius: 20px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .category-home4 {
+    width: 45%;
+    height: 220px;
+    margin-top: 1px;
+    margin-left: 10%;
+  }
+  .category-home5 {
+    width: 45%;
+    height: 220px;
+    background-color: #37A749;
+    opacity: 70%;
+    border-radius: 20px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 10%;
+  }
+  .plus-icon-box {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .bi-plus-circle-fill {
+    font-size: 86px;
+    color: white;
+  }
+  .options-container, .add-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 1000px;
+    margin-top: 30px;
+    margin-left: 5%;
+  }
+  .option-box1 {
+    width: 100%;
+    background-color: #B0D684;
+    opacity: 70%;
+    border-radius: 20px;
+    height: 285px;
+    margin-bottom: 10px;
+  }
+  .option-box2 {
+    width: 100%;
+    background-color: #B0D684;
+    opacity: 70%;
+    border-radius: 20px;
+    height: 320px;
+    margin-bottom: 10px;
+  }
+  .option-box3 {
+    width: 100%;
+    background-color: #B0D684;
+    opacity: 70%;
+    border-radius: 20px;
+    background-color: #37A749;
+    height: 300px;
+  }
+  .bi-arrow-left-circle-fill {
+    font-size: 56px;
+    bottom: 8px;
+    right: 140px;
+  }
+  .option-title {
+    font-size: 32px;
+    margin-top: 40px;
+  }
+  h2 {
+    font-family: "Righteous", cursive;
+    font-size: 24px;
+    text-align: center;
+  }
+  .on-off {
+    margin-top: 75px;
+  }
+  .on-off-text {
+    font-size: 24px;
+  }
+  .switch {
+    position: absolute;
+    display: inline-block;
+    right: 20%;
+    width: 120px;
+    height: 64px;
+  }
+  .slider:before {
+    height: 54px;
+    width: 54px;
+    left: 5px;
+    bottom: 5px;
+  }
+  input:checked + .slider:before {
+    transform: translateX(54px);
+  }
+  .range-slider1 {
+    width: 65%;
+    height: 65px;
+    padding-top: 20px;
+  }
+  .range-slider1 input {
+    height: 35px;
+  }
+  .range-slider1 input::-webkit-slider-thumb {
+    width: 50px;
+    height: 50px;
+  }
+  .battery {
+    font-family: "Righteous", cursive;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .skip-buttons {
+    width: 170px;
+    height: 55px;
+    margin: 0 auto;
+    margin-top: -15px;
+  }
+  .bi-arrow-left-circle {
+    font-size: 50px;
+    color: white;
+  }
+  .bi-arrow-right-circle {
+    font-size: 50px;
+    color: white;
+    margin-left: 65px;
+  }
+  .option-box4 {
+    width: 84%;
+    height: 800px;
+    margin-top: 30px;
+    margin-left: 8%;
+  }
+  .bar-container {
+    width: 70%;
+  }
+  .add-name {
+    height: 60px;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+  .dropdown-rooms-button1, .dropdown-rooms-button2 {
+    width: 396px;
+    height: 60px;
+    padding-left: 24px;
+    font-size: 24px;
+  }
+  .dropdown-content1, .dropdown-content2 {
+    min-width: 396px;
+  }
+  .dropdown-content1 a, .dropdown-content2 a {
+    font-size: 18px;
+  }
+  .bluetooth-container {
+    width: 55%;
+    margin-top: 150px;
+  }
+  .bluetooth-text, .visit-text {
+    width: 63%;
+    margin-right: 10%;
+  }
+  .visit-container {
+    width: 55%;
+    margin-top: 50px;
+  }
+  .option-box5 {
+    width: 0%;
+    height: 0px;
+  }
+  .bi-arrow-up-right-circle {
+    font-size: 80px;
+    top: 105%;
+  }
+  #laptop-up-right-arrow {
+    font-size: 0px;
+  }
+  .bi-bluetooth {
+    font-size: 80px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .bedroom-icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url("site-images/bed-icon.png");
+  }
+  .lounge-icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url("site-images/couch-icon.png");
+  }
+  .kitchen-icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url("site-images/kettle-icon.png");
+  }
+  .bathroom-icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url("site-images/bath-icon.png");
+  }
+  .outhouse-icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url("site-images/outhouse-icon.png");
+  }
+  .audio-icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url("site-images/speaker.png");
+  }
+  .down-icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url("site-images/down-icon.png");
+  }
+  .lamp-icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url("site-images/lamp-icon.png");
+  }
+  .heater-icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url("site-images/heater-icon.png");
+  }
+  .mirror-icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url("site-images/mirror-icon.png");
+  }
+  .ueboom-icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url("site-images/ueboom-icon.png");
+  }
+  .surround-icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url("site-images/surround-icon.png");
+  }
+  .stereo-icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url("site-images/speaker.png");
+  }
+  .home-body {
+    margin: 0;
+    background-color: #37A749;
+    background-size: 100% 1180px;
+    background-image: url("site-images/stereo-horizontal.jpg");
+  }
+  .options-body {
+    margin: 0;
+    background-color: #37A749;
+    background-size: 100% 1180px;
+    background-image: url("site-images/lamp-horizontal.jpg");
+  }
+  .options2-body {
+    margin: 0;
+    background-color: #37A749;
+    background-size: 100% 1180px;
+    background-image: url("site-images/oven-horizontal.jpg");
+  }
+  .options3-body {
+    margin: 0;
+    background-color: #37A749;
+    background-size: 100% 1180px;
+    background-image: url("site-images/mirror-horizontal.jpg");
+  }
+  .options4-body {
+    margin: 0;
+    background-color: #37A749;
+    background-size: 100% 1180px;
+    background-image: url("site-images/speaker-horizontal.jpg");
+  }
+  h1 {
+    font-family: "Righteous", cursive;
+    font-size: 24px;
+    color: #414042;
+  }
+  .health-heading {
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    margin-left: 40px;
+    margin-top: 35px;
+    margin-right: 40px;
+    text-align: center;
+  }
+  .home-body, .options-body {
+    margin: 0;
+    background-image: url("site-images/stereo-horizontal.jpg");
+    background-color: #37A749;
+    background-size: 100% 900px;
+  }
+  .header {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    opacity: 70%;
+  }
+  .header-logo {
+    width: 0%;
+    height: 0px;
+  }
+  .header-logo2 {
+    width: 350px;
+    height: 115px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6px;
+  }
+  .categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 440px;
+    margin-top: 80px;
+    margin-left: 6%;
+  }
+  .spacer, .spacer2, .spacer3 {
+    width: 100%;
+    height: 110px;
+    margin: 0 auto;
+  }
+  .category-home1 {
+    width: 30%;
+    height: 200px;
+    background-color: #B0D684;
+    opacity: 70%;
+    border-radius: 20px;
+    margin-top: 1px;
+    margin-left: 2%;
+    text-align: center;
+  }
+  .category-home2 {
+    width: 30%;
+    height: 200px;
+    background-color: #B0D684;
+    opacity: 70%;
+    border-radius: 20px;
+    margin-top: 1px;
+    margin-left: 2%;
+    text-align: center;
+  }
+  .placeholder {
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .footer {
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    opacity: 70%;
+    position: fixed;
+    bottom: 0;
+  }
+  .pictorial {
+    width: 70px;
+    height: 62px;
+    margin-left: 40px;
+    margin-top: 15px;
+  }
+  .bi-house-door-fill {
+    font-size: 66px;
+    bottom: 6px;
+    right: 60px;
+  }
+  #home-icon-home {
+    font-size: 66px;
+    bottom: 6px;
+    right: 60px;
+  }
+  .categories-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 440px;
+    margin-top: 80px;
+    margin-left: 6%;
+  }
+  .category-home3 {
+    width: 30%;
+    height: 200px;
+    background-color: #B0D684;
+    opacity: 70%;
+    border-radius: 20px;
+    margin-top: 1px;
+    margin-left: 2%;
+    text-align: center;
+  }
+  .category-home3-2 {
+    width: 30%;
+    height: 200px;
+    background-color: #B0D684;
+    opacity: 70%;
+    border-radius: 20px;
+    margin-top: 1px;
+    margin-left: 2%;
+    text-align: center;
+  }
+  .category-home4 {
+    width: 30%;
+    height: 200px;
+    background-color: #B0D684;
+    opacity: 70%;
+    border-radius: 20px;
+    margin-top: 1px;
+    margin-left: 2%;
+    text-align: center;
+  }
+  .category-home5 {
+    width: 30%;
+    height: 200px;
+    background-color: #37A749;
+    margin-top: 1px;
+    margin-left: 2%;
+  }
+  .plus-icon-box {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .options-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 600px;
+    margin-top: 80px;
+    margin-left: 6.5%;
+  }
+  .option-box1 {
+    width: 31%;
+    height: 600px;
+    background-color: #B0D684;
+    opacity: 70%;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 2%;
+  }
+  .option-box2 {
+    width: 31%;
+    height: 600px;
+    background-color: #B0D684;
+    opacity: 70%;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 510px;
+    padding-top: 90px;
+  }
+  .option-box3 {
+    width: 31%;
+    height: 510px;
+    padding-top: 90px;
+    margin-top: 0px;
+    margin-left: 2%;
+    margin-bottom: 0px;
+  }
+  h2 {
+    font-family: "Righteous", cursive;
+    font-size: 32px;
+    text-align: center;
+  }
+  .on-off {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    height: 65px;
+    margin: 0 auto;
+    margin-top: 115px;
+  }
+  .on-off-text {
+    font-family: "Quicksand", sans-serif;
+    font-size: 32px;
+    margin-top: 15px;
+  }
+  .switch {
+    position: absolute;
+    display: inline-block;
+    right: 73.5%;
+    top: 415px;
+    width: 120px;
+    height: 64px;
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 54px;
+    width: 54px;
+    left: 5px;
+  }
+  .range-slider1 {
+    margin-top: 50px;
+  }
+  .battery {
+    margin-top: 80px;
+  }
+  .bi-arrow-left-circle {
+    font-size: 60px;
+  }
+  .bi-arrow-right-circle {
+    font-size: 60px;
+    margin-left: 45px;
+  }
+  .add-container {
+    height: 600px;
+    margin-top: 80px;
+  }
+  .option-box4 {
+    width: 58%;
+    height: 600px;
+    margin-top: 0px;
+    margin-left: 0%;
+  }
+  .option-box5 {
+    width: 40%;
+    height: 600px;
+    background-color: #37A749;
+    opacity: 70%;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-left: 2%;
+  }
+  .bar-container {
+    height: 250px;
+    margin-top: 50px;
+  }
+  .dropdown-rooms-button1, .dropdown-rooms-button2 {
+    width: 375px;
+  }
+  .dropdown-content1 a, .dropdown-content2 a {
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+  .bluetooth-container {
+    width: 70%;
+    margin-top: 50px;
+  }
+  .visit-text {
+    display: none;
+  }
+  .visit-container {
+    display: none;
+  }
+  .visit-container-laptop {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+  .visit-text-laptop {
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    margin-right: 0%;
+    color: #414042;
+  }
+  #laptop-up-right-arrow {
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    left: 73%;
+    top: 66%;
+  }
+  .bi-bluetooth {
+    margin-top: 20px;
+  }
+  .bi-arrow-left-circle-fill {
+    font-size: 56px;
+    bottom: 8px;
+    right: 180px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .categories-container, .categories-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 440px;
+    margin-top: 80px;
+    margin-left: 15%;
+  }
+  .switch {
+    position: absolute;
+    display: inline-block;
+    right: 75%;
+    top: 415px;
+    width: 120px;
+    height: 64px;
+  }
+  .add-container {
+    width: 80%;
+    height: 600px;
+    margin-top: 80px;
+    margin-left: 10%;
+  }
+  .dropdown-rooms-button1, .dropdown-rooms-button2 {
+    width: 470px;
+  }
+  #laptop-up-right-arrow {
+    font-size: 86px;
+    color: white;
+    position: absolute;
+    left: 71%;
+    top: 66%;
+  }
+  .on-off-text {
+    font-family: "Quicksand", sans-serif;
+    font-size: 32px;
+    margin-top: 15px;
+    margin: 0 auto;
+  }
+}
