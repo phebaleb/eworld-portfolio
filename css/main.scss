@@ -87,15 +87,21 @@ h1 {
 }
 
 .header-logo {
-  width: 188px;
-  height: 62.5px;
+  background-image: url('site-images/ehome-logo1.png');
+  background-size: cover;
+  background-position: center;
+  width: 258px;
+  height: 40px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .header-logo2 {
+  background-image: url('site-images/ehome-logo2.png');
+  background-size: cover;
+  background-position: center;
   width: 0%;
   height: 0px;
 }
